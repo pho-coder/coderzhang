@@ -1,0 +1,13 @@
+html {
+    /*background-color: rgb(100, 100, 90);*/
+    background-image: url("../img/background.jpg");
+    background-position: top right;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    margin: 1em;
+}

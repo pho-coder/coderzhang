@@ -15,7 +15,7 @@
   :ring {:handler coderzhang.handler/app}
   :global-vars {*warn-on-reflection* true}
   :aliases {"clean-run!" ["do" "clean," "ring" "server-headless"]
-            "clean-cljsbuild!" ["do" "cljsbuild" "clean," "cljsbuild" "auto" "dev"]}
+            "clean-cljsbuild!" ["do" "clean," "cljsbuild" "clean," "cljsbuild" "once" "dev," "ring" "server-headless"]}
   :cljsbuild {:builds
               {:dev {:source-paths ["src/cljs" "src/brepl"]
                      :compiler {:output-to "resources/public/js/coderzhang_dbg.js"

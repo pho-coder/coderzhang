@@ -3,3 +3,5 @@
 
 (deftemplate home "public/index.html"
   [])
+
+(deftemplate not-found-page "public/404.html" [])
